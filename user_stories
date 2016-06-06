@@ -1,0 +1,22 @@
+Objects                     Messages
+
+Person
+Bike                        working?
+Docking station             release_a_bike
+
+Bike <-- working? --> true/false
+Docking station <-- release_a_bike --> Bike
+
+Object                      Message
+
+Person
+Bike                        docked? see_docked
+Docking Station             dock_bike
+
+Objects                     Messages
+
+Person                      
+Docking station             if bikes = 0 do not release
+Bikes                       
+
+

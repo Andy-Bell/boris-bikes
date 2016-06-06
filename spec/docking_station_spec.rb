@@ -1,7 +1,6 @@
 require 'docking_station'
 
 describe DockingStation do
-	
   let(:bike) { double(:bike, :broken? => false, :working? => true) }
   let(:broke) { double(:broke, :broken? => true, :working? => false) }  
 
@@ -111,8 +110,4 @@ describe DockingStation do
 
   end
 
-
-
 end
-
-
